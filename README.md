@@ -13,12 +13,12 @@ Un "reducer" es una función pura que toma dos argumentos: el estado actual y un
 - Es una funcion comun y corriente
 - Debe ser una **funcion pura**
 - Debe retornar un nuevo estado
-- Usualmente solo recibe dos argumentos
-    -El valor inicial (initialState) y la accion a ejecutar
+- Usualmente solo recibe dos argumentos:
+    El valor inicial (initialState) y la accion a ejecutar
 
-## Ejemplos de uso
+## Ejemplo de uso
 
-En este repositorio, encontrarás ejemplos de cómo utilizar `useReducer` en aplicaciones de React. Cada ejemplo está diseñado para ilustrar diferentes situaciones en las que `useReducer` puede ser útil, como la gestión de formularios, listas de elementos, etc.
+En este repositorio, encontrarás un ejemplo de cómo utilizar `useReducer` en aplicaciones de React.
 
 ## Contribución
 
