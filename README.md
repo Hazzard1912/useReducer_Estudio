@@ -1,4 +1,4 @@
-# Estudio useReducer# Estudio de useReducer en React
+# Estudio de useReducer en React
 
 Este repositorio contiene un estudio sobre el uso de `useReducer` en aplicaciones de React y proporciona ejemplos para comprender mejor este concepto.
 
