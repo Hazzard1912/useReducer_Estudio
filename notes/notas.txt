@@ -1,0 +1,26 @@
+Reducer:
+
+* Primero usaremos una convencion para nombrar las funciones
+reducer. Debemos darle un sentido semantico a ella, por ejemplo
+una funcion reducer que se encarga de tareas por hacer (todos en 
+ingles), la podemos nombrar correctamente como todoReducer
+
+* No debe de tener efectos secundarios, es decir, debe de poder
+resolver todo lo que se le pide internamente, sin necesidad de
+llamar otras funciones.
+
+* No debe realizar tareas asincronas.
+
+* Debe de retornar siempre un nuevo estado, es decir, no debemos 
+de mutar nunca el estado que recibe, sino mas bien, construir
+un nuevo estado con la misma estructura, realizar las modificaciones,
+y ese si retornarlo.
+
+* No debe de llamar localStorage ni el sessionStorage, pues el
+llamado a esas funciones son considerados efectos secundarios.
+Esto tambien tiene el sentido de que, esas funciones pueden fallar
+y si fallan, no regresaremos un nuevo state sino un error. Luego
+esto puede hacer tambien que nuestra app falle.
+
+* No se debe requerir mas que una accion que puede tener un argumento,
+para poder modificar el state.
